@@ -152,8 +152,9 @@ footer {
 }
 
 #typing {
-    background: black;
-    padding: 2%;
+    background: rgb(226, 205, 43);
+    padding: 1%;
+    color: black;
     border-radius: 5px;
 }
 
