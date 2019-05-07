@@ -75,6 +75,7 @@ main {
     text-align: center;
     line-height: 130%;
     width: 100%;
+    padding-bottom: 0px;
 
 }
 
@@ -125,7 +126,7 @@ main {
 footer {
     text-align: center;
     color: white;
-    background: #01072B;
+    background: #4A3341;
     padding: 10% 0;
     line-height: 190%;
     text-align: center;
@@ -153,8 +154,8 @@ footer {
 
 #typing {
     background: rgb(226, 205, 43);
-    padding: 1%;
     color: black;
+    padding: 1%;
     border-radius: 5px;
 }
 
@@ -219,7 +220,7 @@ img {
 form {
     width: calc(100% -8%);
     height: 100%;
-    margin-top: 2%;
+
     border: 2px solid green;
     margin: 2%;
     padding: 2%;
@@ -275,5 +276,43 @@ input[type="submit"]:hover {
     font-size: 1.7rem;
     outline: none;
     cursor: pointer;
+    color: white;
+}
+
+.icon-bar {
+    margin-top: 4%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 5vh;
+    align-content: center;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
     color: white;
 }
