@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 10vh;
+  padding: 0 5%;
+  background: #e5e6e0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  /* color: black; */
+  font-size: 1.2em;
+  font-family: "Fredoka One", monospace;
+  font-weight: lighter;
+}
+
+.body {
+  background: #e5e6e0;
+  color: #30262e;
+  padding: 5%;
+}
+
+.main-info-div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-family: "Permanent Marker", sans-serif;
+  height: 50vh;
+}
+
+.hero-name {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.main-info-div h6 {
+  font-size: 1em;
+  font-family: monospace;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.main-info-div img {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.cards img {
+  width: 140px;
+}
+
+.my-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5%;
+  align-items: center;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5%;
+  /* padding: 0 20%; */
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  border: 2px solid white;
+  margin-top: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  /* margin-bottom: 40px; */
+}
+
+.image-div {
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.work-description {
+  padding: 1% 5%;
+  width: 100%;
+  background: #30262e;
+  color: white;
+}
+
+.card3 {
+  /* margin-bottom: 3%; */
+}
+.about-me {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 150px;
+}
+
+.about-me-content {
+  display: flex;
+  margin-bottom: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.container h2 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.footer {
+  text-align: center;
+  padding: 0% 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    flex-direction: row;
+  }
+  .card3 {
+    margin-bottom: 0%;
+  }
+  .card2 {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .about-me-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+  }
+  .about-me-content img {
+    margin-right: 5%;
+  }
+}
