@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 5%;
+  color: #1f2732;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 0;
+}
+
+.logo {
+  width: 50%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-bar {
+  width: 50%;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin-left: calc(50% / 3);
+}
+
+.nav-links a {
+  color: #1f2732;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.div-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.profilepicture {
+  border-radius: 50%;
+}
+
+.hero-name {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.hero-description {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  margin-top: 17px;
+}
+
+.my-works-btn {
+  margin-top: 41px;
+}
+.my-works-btn button {
+  padding: 12px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #6a8af1, rgb(143, 167, 248));
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.my-skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin-top: 55px;
+}
+
+#skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 20%;
+}
+
+.skills {
+  padding: 10px;
+  background-color: #f6fcfc;
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #6b6d85;
+  margin: 2px 0px;
+  font-family: "Source Sans Pro";
+  box-shadow: 1px 2px 10px rgb(180, 179, 179);
+}
+
+.head {
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background: #cccccc;
+}
+
+.my-works {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  padding: 1%;
+  background: #f6fcfc;
+  margin: 20px;
+  box-shadow: 1px 0 20px 1px rgb(206, 205, 205);
+  border: none;
+}
+
+.card img {
+  width: 100%;
+  background-size: contain;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  padding: 5%;
+  font-family: sans-serif;
+  font-weight: bold;
+  background: #1f2732;
+  color: white;
+  font-size: 1rem;
+}
+
+.card h4 {
+  padding: 8% 2%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.card a {
+  text-decoration: none;
+  color: #5b8fc0;
+  font-family: sans-serif;
+}
+
+.my-works-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .hero-description {
+    font-size: 1rem;
+  }
+}
+
+.about-me {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  justify-content: space-evenly;
+}
+
+.about-img {
+  width: 100%;
+}
+.about-me img {
+  width: 300px;
+}
+
+.about-text {
+  padding-top: 40px;
+  font-family: sans-serif;
+  margin: 2%;
+  line-height: 21px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 55px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 3% 0;
+}
+
+.social-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+
+.contact .head {
+  margin-bottom: 10px;
+}
